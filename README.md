@@ -4,14 +4,10 @@
 	<title>CatPhotoApp</title>
 </head>
 <body>
-	<img src="https://bit.ly/fcc-relaxing-cat" alt="A relaxing cat.">
+	<img class="smaller image thick-green-border" src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange lying on its cat.">
 
 	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 	<style>
-		.red-text {
-			color: red;
-		}
-
 		h2 {
 			font-family: Lobster, Monospace;
 		}
@@ -19,6 +15,21 @@
 		p {
 			font-size: 16px;
 			font-family: Monospace;
+		}
+		
+		.red-text {
+                        color: red;
+                }
+		
+		.smaller-image {
+			width: 100px;
+		}
+		
+		.thick-green-border {
+			border-color: green;
+			border-width: 10px;
+			border-style: solid;
+			border-radius: 50%;
 		}
 	</style>
 
