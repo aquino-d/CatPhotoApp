@@ -5,8 +5,9 @@
 </head>
 <body>
 	<img class="smaller image thick-green-border" src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange lying on its cat.">
-
+	
 	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+	
 	<style>
 		h2 {
 			font-family: Lobster, Monospace;
