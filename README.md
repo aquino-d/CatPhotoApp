@@ -1,10 +1,12 @@
+
 <!doctype>
 <html>
 <head>
 	<title>CatPhotoApp</title>
 </head>
 <body>
-	<img class="smaller image thick-green-border" src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange lying on its cat.">
+	
+	<a href="#"> <img class="smaller image thick-green-border" src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange lying on its cat."></a>
 	
 	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 	
@@ -35,14 +37,30 @@
 	</style>
 
 	<h2 class="red-text">CatPhotoApp</h2>
-
-	<p class="red-text">Kitty ipsum dolor sit amet, shed everywhere shed 
-		everywhere stretching attack your ankles chase the red dot, hairball 
-		run catnip eat the grass sniff.</p>
 	
-	<p class="red-text">Purr jump eat the grass rip the couch scratched 
-		sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur 
-		catnip scratched.</p>
+	<p> View more  
+	<a href="#">cat photos</a>
+	</p>
+	
+	<p>3 Things cats love:</p>
+	<ul>
+		<li>Eggs</li>
+		<li>Lasers</li>
+		<li>Q-tips</li>
+	</ul>
+	
+	<p>3 Things cats hate:</p>
+	<ol> 
+		<li>Water</li>
+		<li>Being Picked up(sometimes)</li>
+		<li>Hot Sauce</li>
+	</ol>
+	
+	<form action="/submit-cat-photo"> 
+		<input type="text" required placeholder="cat photo URL">
+		<button type="Submit">Submit</button>
+	</form>
+	
 </body>
 </html># CatPhotoApp
 
